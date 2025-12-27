@@ -56,4 +56,4 @@ jobs:
             
             docker run -dp 8000:8080 \
               --name my-app \
-              "lyvanna544/${{ env.IMAGE_NAME }}:${{ env.TAG }}"
+              "chansy/${{ env.IMAGE_NAME }}:${{ env.TAG }}"
